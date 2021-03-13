@@ -1,0 +1,12 @@
+Comando de saldo
+================
+Vídeo: https://youtu.be/4xEU9_6vrnw
+================
+Variáveis:
+Nome: dinheiro
+Valor: 0
+----------------
+Código:
+
+$nomention
+💰 <@$authorID> Você tem `$getUserVar[dinheiro]` reais!
