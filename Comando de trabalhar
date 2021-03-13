@@ -1,0 +1,15 @@
+Comando de trabalhar
+=====================
+Vídeo: https://youtu.be/4xEU9_6vrnw
+=====================
+Variáveis:
+Nome: dinheiro
+Valor: 0
+---------------
+Código:
+
+$nomention
+$title[Trabalho]
+$description[Você trabalhou e ganhou `$random[20;300]` reais!]
+$addTimestamp
+$setUserVar[dinheiro;$sum[$getUserVar[dinheiro];$random[20;300]]]
