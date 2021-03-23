@@ -1,4 +1,4 @@
-
+Comandos de lock e unlock
 --------------------------------------------------------------------------------------------------------------------
 Comando de lock:
 $onlyIf[$guildID!=;]
@@ -21,3 +21,5 @@ $description[✅Canal de texto destrancado por $username]
 $onlyAdmin[**Você não pode usar este comando!**]
 $suppressErrors[Ouve algum erro]
 $cooldown[5s;]
+---------------------------
+POR FAVOR NÃO FAÇA UM VÍDEO NO YOUTUBE COM ESTE CÓDIGO SEM MINHA PERMISSÃO.
