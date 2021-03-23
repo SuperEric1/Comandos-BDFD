@@ -1,0 +1,15 @@
+Variáveis:
+dinheiro = 0
+banco = 0
+-------------
+Código:
+$nomention
+$onlyIf[$getUserVar[dinheiro]>=$message[1];❌ Você não tem essa quantia para depositar!]
+$argsCheck[>1;❌ Você precisa expecificar a quantidade de moedas que você quer depositar.]
+$title[✅ Depositado]
+$description[**<@$authorID> Depositou __$message[1]__ reais no banco!**]
+$color[000FF]
+$setUserVar[banco;$sum[$getUserVar[banco];$message[1]]]
+$setUserVar[dinheiro;$sub[$getUserVar[dinheiro];$message[1]]]
+---------------------------
+POR FAVOR NÃO FAÇA UM VÍDEO NO YOUTUBE COM ESTE CÓDIGO SEM MINHA PERMISSÃO.
