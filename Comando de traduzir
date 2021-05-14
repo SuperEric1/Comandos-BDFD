@@ -1,0 +1,15 @@
+Vídeo: (não disponível ainda)
+Comando de traduzir
+-----------------------------------
+$nomention
+$argsCheck[>1;Você precisa colocar uma palavra para traduzir!]
+<@$authorID>
+$title[Tradutor]
+$description[
+**Palavra:** $message
+
+**Tradução:**
+$httpResult[translated]]
+$httpGet[https://normal-api.ml/translate?text=$replaceText[$message; ;+;-1]&to=pt]
+$color[#58dcfc]
+$footer[Pedido por: $username#$discriminator[$authorID]]
