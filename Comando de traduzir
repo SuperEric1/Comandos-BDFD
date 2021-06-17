@@ -9,7 +9,7 @@ $description[
 **Palavra:** $message
 
 **Tradução:**
-$httpResult[translated]]
-$httpGet[https://normal-api.ml/translate?text=$replaceText[$message; ;+;-1]&to=pt]
+$httpResult[translated;text]]
+$httpGet[https://translate-api.ml/translate?text=$replaceText[$message;%20;+;-1]&lang=pt]
 $color[#58dcfc]
 $footer[Pedido por: $username#$discriminator[$authorID]]
